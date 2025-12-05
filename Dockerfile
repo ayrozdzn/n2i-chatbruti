@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package.json .
 COPY package-lock.json .
-COPY public/ .
+COPY public/ ./public/
 COPY index.html .
 COPY server.js .
 
