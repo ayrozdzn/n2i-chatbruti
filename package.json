@@ -1,0 +1,14 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot avec Express et Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2"
+  }
+}
